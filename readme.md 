@@ -1,0 +1,33 @@
+# FeD - Assignment 1 - Chart
+
+### BACKGROUND
+In this assesment I tried to visualize data interactively. I used data for attractions in Amsterdam and their popularity between 2012-2016. Because I thought it was to messy to put every year in one bar chart, i decided to make a chart where you can select the years. Only that specific year will be visible after choosing it in het dropdown menu. 
+Because some attractions where way more popular then others, big height differences where notable. To fix this visability problem, information about the value will we visible when hovering over a specific bar in the chart. 
+
+### DATA
+In the bar chart you can find the popularity from attractions in Amsterdam between the years 2012-2016. 
+
+* Each column on the x-axis represents the name of the attraction.
+* Each column on the y-axis represents the amount of people (x1000), who have been to the attraction.
+
+* On the top in the middle, a dropdowm menu can be selected to change the year of the data. 
+
+### FEATURES
+
+* [d3.select](https://github.com/d3/d3-selection#select)
+* [d3.scaleBand()](https://github.com/d3/d3-scale#scaleBand)
+* [d3.scaleLinear()](https://github.com/d3/d3-scale#scaleLinear)
+* [d3.max](https://github.com/d3/d3-array#max)
+* [d3.scale](https://github.com/d3/d3-scale)
+
+
+### LICENSE
+
+
+
+#### SOURCES
+1. Why? Helped me for inspriration to highlight a bar useing a tool tip
+http://bl.ocks.org/Caged/6476579
+
+2. Why? Helped me to visualize and understand the code and my idea for visualizing data.
+http://bl.ocks.org/jonahwilliams/2f16643b999ada7b1909

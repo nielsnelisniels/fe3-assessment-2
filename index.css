@@ -1,0 +1,29 @@
+.rectangle {
+	fill: steelblue;
+}
+.rectangle:hover {
+	fill: orange;
+}
+.axis {
+  font: 10px sans-serif;
+}
+
+.axis path,
+.axis line {
+  fill: none;
+  stroke: #000;
+  shape-rendering: crispEdges;
+}
+
+
+* {
+    background-color: #F2F1FF;
+}
+
+h1 {
+    font-family: Chalkduster;
+    font-size: 1.5em;
+    text-align: center;
+}
+
+
